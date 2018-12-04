@@ -7,7 +7,7 @@ date: 2018-11-26T12:00:47-05:00
 
 ### Who or What is Linux Moles
 
-LinuxMole website is for enthusiasm user, power user, developer or anyone who love the Linux and the command line world aka the shell.  Linux, because its the most open and used OS in the world. Moles, because we live in the tunnels (ssh, terminal, and text world) where we dig into place were most normal don't venture. 
+LinuxMole website is for CLI junkies, enthusiasm user, power user, developer or anyone who love the Linux and the command line world aka the shell.  Linux, because its the most open and used OS in the world. Moles, because we live in the tunnels (ssh, terminal, and text world) where we dig into place were most normal don't venture and what proper input.
 
 wiki [Command line](https://en.wikipedia.org/wiki/Command-line_interface)
 
@@ -24,12 +24,10 @@ Quoted  [source](Why the GUI Will Never Kill the Sacred Command Line | WIRED. ht
 > Pike tells Wired. "All computing, at some level, is an abstraction and yet deep down beneath there are hardware instructions doing the job. It depends on the level you're working at."
 
 
-A shell requires a keyboard. The shell provides access to lower levels of your computer software and hardware through its interface and tools. A shell can automate processes function in your computer. For example, if you can type it, you can script it, and if you can script it, you can automate it. Also, any input, output, and error can easily be redirected in the shell with many its powerful function and tools. This can allow information to be sent or received from other files, shell, and even other applications. 
+A shell requires a keyboard which is a prompt input for your OS. The shell provides access to lower levels of your computer software and hardware through its interface and tools. A shell can automate processes function in your computer. For example, if you can type it, you can script it, and if you can script it, you can automate it. Also, any input, output, and error can easily be redirected in the shell with many its powerful function and tools. This can allow information to be sent or received from other files, shell, and even other applications. 
 
 ###  Reason
 
-- Keying is faster than mousing, in which a user can type what they think
-- With built-in tools like man pages and are easier to remember than clicks.
-- Most people hurt themself from a mouse mostly, then a keyboard.
-- Commands have a standard where GUIs are not which is always changing, for example, POSIX, Unix, and Unix-like system all have similar shell and tools
-- A shell merely is more powerful 
+- Keying a keyboard is faster in more case, in which a great medium for your thoughts
+- Commands have a standard and where GUIs are not because is always changing, for example, POSIX, Unix, and Unix-like system all have similar shell and tools
+- A shell is merely is more powerful 
