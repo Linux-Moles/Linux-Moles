@@ -1,5 +1,5 @@
 ---
-title: "About."
+title: "About Us"
 date: 2018-11-26T12:00:47-05:00
 ---
 
@@ -24,10 +24,11 @@ Quoted  [source](Why the GUI Will Never Kill the Sacred Command Line | WIRED. ht
 > Pike tells Wired. "All computing, at some level, is an abstraction and yet deep down beneath there are hardware instructions doing the job. It depends on the level you're working at."
 
 
-A shell requires a keyboard which is a prompt input for your OS. The shell provides access to lower levels of your computer software and hardware through its interface and tools. A shell can automate processes function in your computer. For example, if you can type it, you can script it, and if you can script it, you can automate it. Also, any input, output, and error can easily be redirected in the shell with many its powerful function and tools. This can allow information to be sent or received from other files, shell, and even other applications. 
+A shell requires a keyboard which is a promper input for your OS. The shell provides access to lower levels of your computer software and hardware through its interface and tools. A shell can automate processes function in your computer. For example, if you can type it, you can script it, and if you can script it, you can automate it. Also, any input, output, and error can easily be redirected in the shell with many its powerful function and tools. This can allow information to be sent or received from other files, shell, and even other applications. 
 
 ###  Reason
 
-- Keying a keyboard is faster in more case, in which a great medium for your thoughts
-- Commands have a standard and where GUIs are not because is always changing, for example, POSIX, Unix, and Unix-like system all have similar shell and tools
-- A shell is merely is more powerful 
+- A shell is merely is more powerful. 
+- Keying a keyboard is faster in most cases, in which is a great medium for your thoughts.
+- Commands have a standard and where GUIs are not because is always changing, for example, POSIX, Unix, and Unix-like system all have similar shell and tools.
+
