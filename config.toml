@@ -38,13 +38,9 @@ rssLimit = 10  # Maximum number of items in the RSS feed.
 #    name = "twitter"
 #    url = "https://twitter.com/"
 
-#  [[params.social]]
-#    name = "instagram"
-#    url = "https://instagram.com/"
-
   [[params.social]]
     name = "github"
-    url = "https://github.com/"
+    url = "https://github.com/Linux-Moles"
 
 [menu]
 
