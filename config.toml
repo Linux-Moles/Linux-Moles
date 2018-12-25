@@ -19,7 +19,7 @@ rssLimit = 10  # Maximum number of items in the RSS feed.
 
 [taxonomies]
   tag = "tags"
-  category = ""  # Categories are disabled by default.
+  category = "command line"  # Categories are disabled by default.
 
 [params]
   dateform        = "Jan 2, 2006"
