@@ -1,6 +1,10 @@
 ---
 title: "About Us"
 date: 2018-11-26T12:00:47-05:00
+- tag
+    - linux
+    - shell
+    - about
 ---
 
 # About Linux Moles
@@ -28,7 +32,8 @@ A shell requires a keyboard which is a promper input for your OS. The shell prov
 
 ###  Reason
 
-- A shell is merely is more powerful. 
-- Keying a keyboard is faster in most cases, in which is a great medium for your thoughts.
-- Commands have a standard and where GUIs are not because is always changing, for example, POSIX, Unix, and Unix-like system all have similar shell and tools.
-
+- A shell is merely is more powerful.
+- Keying a keyboard is faster in most cases, in which is an excellent medium for your thoughts.
+- Commands have a standard, and where GUIs are not because it is always changing, for example, POSIX, Unix, and Unix-like system all have similar shell and tools.
+- with today's automation, a shell script is needed more than ever
+- Shell scripts can be used for web development, System, mobile, data analysts
