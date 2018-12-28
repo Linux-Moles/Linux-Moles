@@ -23,6 +23,13 @@ a tree alternavite version for portable and easy use.
 let break down how this oneliner is build by go deep with the command that is
 being used.
 
+### using `ls`
+
+using 'ls -R' does recursively list subdirectories encountered. this will give
+every thing in directory by level of current one
+
+### `grep`
+
 
 
 
