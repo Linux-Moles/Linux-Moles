@@ -1,10 +1,11 @@
 ---
 title: "About Us"
 date: 2018-11-26T12:00:47-05:00
-- tag
-    - linux
-    - shell
-    - about
+tag:
+  - linux
+  - shell
+  - about
+
 ---
 
 # About Linux Moles
