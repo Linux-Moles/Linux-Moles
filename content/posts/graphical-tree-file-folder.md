@@ -30,7 +30,8 @@ every thing in directory by level of current one
 
 ### `grep`
 
-
+Now with the grep command, we grep all line that end with `:`. using the `$`we
+grabbing all line with `:`. 
 
 
 ### final commandline
