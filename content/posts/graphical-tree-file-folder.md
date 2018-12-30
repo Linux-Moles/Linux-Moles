@@ -51,6 +51,85 @@ directories and add |- and additional - for each level of the directories it
 sitting in. with `sed` the flag `-e` will append the editing commands specified 
 by the command argument to the list of commands.
 
+First let remove the `:` from the list directories.
+
+```
+root@80edb8b49c29:/var#  ls -R | grep ":$" | sed -e 's/:$//'
+.
+./backups
+./cache
+./cache/apt
+./cache/apt/archives
+./cache/apt/archives/partial
+./cache/debconf
+./cache/ldconfig
+./lib
+./lib/apt
+./lib/apt/lists
+./lib/apt/mirrors
+./lib/apt/mirrors/partial
+./lib/apt/periodic
+./lib/dpkg
+./lib/dpkg/alternatives
+./lib/dpkg/info
+./lib/dpkg/parts
+./lib/dpkg/triggers
+./lib/dpkg/updates
+./lib/misc
+./lib/pam
+./lib/systemd
+./lib/systemd/deb-systemd-helper-enabled
+./lib/systemd/deb-systemd-helper-enabled/timers.target.wants
+./local
+./log
+./log/apt
+./mail
+./opt
+./spool
+./tmp
+```
+
+now let with the regex `s/[^-][^\/]*\//--/g` from sed, replace all `.` and `/`
+and stop with last `/` with a `--` when in case with add additionalm base on
+how many dirctory each lines has.
+
+```sh
+root@80edb8b49c29:/var# ls -R | grep ":$" | sed -e 's/:$//' -e 's/[^-][^\/]*\//--/g'
+.
+--backups
+--cache
+----apt
+------archives
+--------partial
+----debconf
+----ldconfig
+--lib
+----apt
+------lists
+------mirrors
+--------partial
+------periodic
+----dpkg
+------alternatives
+------info
+------parts
+------triggers
+------updates
+----misc
+----pam
+----systemd
+------deb-systemd-helper-enabled
+--------timers.target.wants
+--local
+--log
+----apt
+--mail
+--opt
+--spool
+--tmp
+
+```
+
 ```sh
 
 root@19472dcaa9be:/var# ls -R | grep ":$" | sed -e 's/:$//' -e 's/[^-][^\/]*\//--/g' -e 's/^/ /' -e 's/-/|/'
