@@ -50,6 +50,11 @@ rssLimit = 10  # Maximum number of items in the RSS feed.
     weight = 10
 
   [[menu.main]]
+    name = "Shell News"
+    url = "/news/"
+    weight = 15
+
+  [[menu.main]]
   	identifier = "about"
     name = "About Us"
     url = "/about/"
