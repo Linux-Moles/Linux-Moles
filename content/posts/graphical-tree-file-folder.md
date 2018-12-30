@@ -130,6 +130,10 @@ root@80edb8b49c29:/var# ls -R | grep ":$" | sed -e 's/:$//' -e 's/[^-][^\/]*\//-
 
 ```
 
+finally we use this two sed regex `-e 's/^/ /' -e 's/-/|/'` and add spacing and
+`|` to the begining of the list. thier you go we have a quick tree of the
+directories with `--` as levels. 
+
 ```sh
 
 root@19472dcaa9be:/var# ls -R | grep ":$" | sed -e 's/:$//' -e 's/[^-][^\/]*\//--/g' -e 's/^/ /' -e 's/-/|/'
