@@ -2,6 +2,7 @@
 title: "First Steps"
 date: 2018-11-26T11:40:28-05:00
 featuredImg: ""
+author: Linux Bytes
 tags: 
   - first
   - start
