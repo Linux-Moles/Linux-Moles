@@ -13,6 +13,24 @@ Regex's some hate some love, but in the end, we all need something productive in
 
 so let excerices a regex enscription for everyday needs 
  
-- Finding Mailing data
-- Marking Up a Document 
-- Check for IP address
+### Finding Mailing data
+
+extract email adresses from some file
+
+
+```
+'([[:alnum:]_.-]+@[[:alnum:]_.-]+?\.[[:alpha:].]{2,6})'
+```
+
+### Check for IP address
+
+Look for IPv4 address in files
+
+
+```
+'([0-9]{1,3}\.){3}[0-9]{1,3}'
+```
+
+
+- [By: rubenmoran](https://www.commandlinefu.com/commands/view/5668/extract-ipv4-addressess-from-file)
+- [By: wires](https://www.commandlinefu.com/commands/view/2431/extract-email-adresses-from-some-file-or-any-other-pattern)
