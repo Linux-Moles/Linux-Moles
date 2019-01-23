@@ -7,11 +7,18 @@ tags:
     - bash
     - shell
     - updates
-
 ---
 
-![bash](https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Gnu-bash-logo.svg/800px-Gnu-bash-logo.svg.png)
+![bash](https://linux.pictures/content/1-projects/189-dark-bash-picture-in-playing-cards-style/bash-card-black-demo.png)
 
+Hello power users, the fifth release of bash is focused on new shell variables and with a lot of significant bug fixes which is fantastic!!! It also  The bash was first released in 1989 and was created for the GNU project as a replacement for their Bourne shell. It is capable of performing functions such as interactive command line editing, and job control on architectures that support it
+
+comments from the mailing list
+
+> This release fixes several outstanding bugs in bash-4.4 and introduces several new features. The most significant bug fixes are an overhaul of how nameref variables resolve and a number of potential out-of-bounds memory errors discovered via fuzzing. There are a number of changes to the expansion of `$@` and `$*` in various contexts where word splitting is not performed to conform to a Posix standard interpretation, and additional changes to resolve corner cases for Posix conformance.
+
+
+Here are the large amount cool feature added to powerful shell
 
 ### Directly from the mailing list
 
@@ -159,3 +166,4 @@ k. The "Insert" keypad key, if available, now puts readline into overwrite mode.
 
 ![Bash mailing source](https://lists.gnu.org/archive/html/bug-bash/2019-01/msg00063.html)
 ![Bash Wiki](https://en.wikipedia.org/wiki/Bash_(Unix_shell))
+![Bash Image Source](https://linux.pictures/)
