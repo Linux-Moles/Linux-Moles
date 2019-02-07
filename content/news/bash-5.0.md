@@ -164,6 +164,10 @@ j. Readline now allows application-defined keymap names; there is a new public f
 k. The "Insert" keypad key, if available, now puts readline into overwrite mode.
 
 
+with a bundle of new improvement, fixes and feature it's a lot to cover on one news post, we will post a tutorial, use cases, and features soon.
+
+
+
 ![Bash mailing source](https://lists.gnu.org/archive/html/bug-bash/2019-01/msg00063.html)
 ![Bash Wiki](https://en.wikipedia.org/wiki/Bash_(Unix_shell))
 ![Bash Image Source](https://linux.pictures/)

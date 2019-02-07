@@ -1,18 +1,18 @@
 ---
 title: "Regex Use Cases"
 date: 2019-01-06T21:41:19-05:00
-draft: true
 author: Linux Bytes
 tags:
     - regex
     - emails
     - search
+    - IP
 ---
 
-Regex's some hate some love, but in the end, we all need something productive in our life. Some people hate because the mini-language can be arcane. Others love it because it adds superpowers for text processing. Learning the arcane secrets of regex can be a rough experience, but it doesn't have to.  
+Regex's some hate some love, but in the end, we all need something productive in our life. Some people hate because the mini-language can be arcane. Others love it because it adds superpowers for text processing. Learning the arcane secrets of regex can be a rough experience, but it doesn't have to.
 
-so let do excerices a regex enscription for your everyday needs 
- 
+so let do some exercises on regex like emails and IP for your everyday technical needs
+
 ### Finding Mailing data
 
 extract email adresses from some file
@@ -28,7 +28,7 @@ extract email adresses from some file
 
 3. `?`: Makes quantifiers "lazy"
 
-4. `\.`: Escapes a special character fpr the `.`
+4. `\.`: Escapes a special character for the `.`
 
 ### Check for IP address
 
@@ -43,6 +43,9 @@ Look for IPv4 address in files
 
 2. `{1,3}`: One to three times, "greedy"
 
+3. `\.`: Escapes a special character for the `.`
+
+Like any programming language, it just requires a bit of understanding to get the hang of it. Regex is very powerful can be used for varies of a task that is needed. so keep in mind sprinkle of regex can improve on any project you are working on the shell
 
 - [By: rubenmoran](https://www.commandlinefu.com/commands/view/5668/extract-ipv4-addressess-from-file)
 - [By: wires](https://www.commandlinefu.com/commands/view/2431/extract-email-adresses-from-some-file-or-any-other-pattern)

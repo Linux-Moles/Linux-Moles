@@ -26,4 +26,54 @@ here are of the option that this tool can do beside display information.
 - `-u` use unbuffered I/O for stdout. POSIX does not specify the behavior without this option.
 - `-v` (GNU: --show-nonprinting), displays nonprinting characters, except for tabs and the end of line character
 
+so let look at a few options
 
+for example using the `cat -n` will show the number line of a file
+
+```
+root@0868755f0791:/# cat -n etc/login.defs | head
+     1	#
+     2	# /etc/login.defs - Configuration control definitions for the login package.
+     3	#
+     4	# Three items must be defined:  MAIL_DIR, ENV_SUPATH, and ENV_PATH.
+     5	# If unspecified, some arbitrary (and possibly incorrect) value will
+     6	# be assumed.  All other items are optional - if not specified then
+     7	# the described action or option will be inhibited.
+     8	#
+     9	# Comment lines (lines beginning with "#") and blank lines are ignored.
+    10	#
+
+```
+
+now let check the end of line character with the `cat -e`
+
+```
+root@0868755f0791:/# cat -e etc/login.defs | head
+#$
+# /etc/login.defs - Configuration control definitions for the login package.$
+#$
+# Three items must be defined:  MAIL_DIR, ENV_SUPATH, and ENV_PATH.$
+# If unspecified, some arbitrary (and possibly incorrect) value will$
+# be assumed.  All other items are optional - if not specified then$
+# the described action or option will be inhibited.$
+#$
+# Comment lines (lines beginning with "#") and blank lines are ignored.$
+#$
+
+```
+
+final with the `cat -T` command flag
+
+```
+root@0868755f0791:/# cat -T etc/bash.bashrc | tail
+                   return $?
+                elif [ -x /usr/share/command-not-found/command-not-found ]; then
+^I^I   /usr/share/command-not-found/command-not-found -- "$1"
+                   return $?
+^I^Ielse
+^I^I   printf "%s: command not found\n" "$1" >&2
+^I^I   return 127
+^I^Ifi
+^I}
+fi
+```
