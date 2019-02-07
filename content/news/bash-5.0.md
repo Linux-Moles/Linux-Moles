@@ -1,7 +1,6 @@
 ---
 title: "Bash 5.0 Release"
 date: 2019-01-22T19:01:53-05:00
-draft: true
 featuredImg: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Gnu-bash-logo.svg/500px-Gnu-bash-logo.svg.png"
 tags:
     - bash
@@ -171,3 +170,4 @@ with a bundle of new improvement, fixes and feature it's a lot to cover on one n
 ![Bash mailing source](https://lists.gnu.org/archive/html/bug-bash/2019-01/msg00063.html)
 ![Bash Wiki](https://en.wikipedia.org/wiki/Bash_(Unix_shell))
 ![Bash Image Source](https://linux.pictures/)
+

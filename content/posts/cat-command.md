@@ -62,7 +62,7 @@ root@0868755f0791:/# cat -e etc/login.defs | head
 
 ```
 
-final with the `cat -T` command flag
+with the `cat -T` command flag we can see all the tab characters
 
 ```
 root@0868755f0791:/# cat -T etc/bash.bashrc | tail
@@ -76,4 +76,20 @@ root@0868755f0791:/# cat -T etc/bash.bashrc | tail
 ^I^Ifi
 ^I}
 fi
+```
+
+now putting it all together
+
+```
+root@0868755f0791:/# cat -Ten etc/bash.bashrc | tail
+    62	                   return $?$
+    63	                elif [ -x /usr/share/command-not-found/command-not-found ]; then$
+    64	^I^I   /usr/share/command-not-found/command-not-found -- "$1"$
+    65	                   return $?$
+    66	^I^Ielse$
+    67	^I^I   printf "%s: command not found\n" "$1" >&2$
+    68	^I^I   return 127$
+    69	^I^Ifi$
+    70	^I}$
+    71	fi$
 ```
