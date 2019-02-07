@@ -1,14 +1,13 @@
 ---
 title: "Bash 5.0 Release"
 date: 2019-01-22T19:01:53-05:00
-featuredImg: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Gnu-bash-logo.svg/500px-Gnu-bash-logo.svg.png"
+featuredImg: "https://linux.pictures/content/1-projects/82-bash-highway-to-shell-jpg/bash-highway-to-shell.jpg"
 tags:
     - bash
     - shell
     - updates
 ---
 
-![bash](https://linux.pictures/content/1-projects/189-dark-bash-picture-in-playing-cards-style/bash-card-black-demo.png)
 
 Hello power users, the fifth release of bash is focused on new shell variables and with a lot of significant bug fixes which is fantastic!!! It also  The bash was first released in 1989 and was created for the GNU project as a replacement for their Bourne shell. It is capable of performing functions such as interactive command line editing, and job control on architectures that support it
 
