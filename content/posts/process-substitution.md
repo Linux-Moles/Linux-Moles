@@ -40,4 +40,22 @@ Now let try view the lines unique to each of these two unsorted files with using
 
 as you can see both files needed to be created in order to compare, with process substitution we can do all this with one line
 
+```bash
+
+> comm -3 <(sort a | uniq) <(sort b | uniq)
+
+         c
+         d
+         f
+
+```
+Let's point what makes process substitution a great shell technique. First, there is no need to save temporary files or create named pipes first. Secondary Reading directly from another process is often faster than having to write a temporary file to this k, then read it back in. Which make this not tie to the IO and won't require disk space. The substituted process can be running concurrently, which can make shell scripts to taking advantage of multiprocessing to reduce the total time for the computation.
+
+#### Wiki History
+
+Process substitution was available as a compile-time option for ksh88, the 1988 version of the Korn shell from Bell Labs.[1] The Bash shell provided process substitution no later than version 1.14, released in 1994
+
+
+
+![wiki source](https://en.wikipedia.org/wiki/Process_substitution)
 
